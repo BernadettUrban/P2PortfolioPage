@@ -31,7 +31,8 @@ body {
 	height:2rem;
   	color:#333;
 }
-h1, h2, h3, h4{
+
+h1, h2, h3, h4 {
   	font-weight: 500;
   	line-height: 1.1;
   	margin-top: 0;	
@@ -40,15 +41,19 @@ h1, h2, h3, h4{
 h1 {
 	font-size: 50px;
 }
+
 h2 {
 	font-size: 48px;
 }
-h3{
+
+h3 {
 	font-size:30px;
 }
-h4{
+
+h4 {
 	font-size: 20px;
 }
+
 .main-header {
 	width: 100%;
 	display: flex;
@@ -66,27 +71,27 @@ h4{
 
 .name {
 	margin-left: 0;
-    text-align: right;
+    	text-align: right;
 	text-transform: uppercase;
 	width:80%;
 }
 
-.job-title{
+.job-title {
 	margin-left: 0;
-    text-align: right;
+    	text-align: right;
 	text-transform: uppercase;
 	width:80%;
 }
 
 img {
-    max-width: 100%;
-}
-.hero-image{
 	max-width: 100%;
 }
 
+.hero-image {
+	max-width: 100%;
+}
 
-.featured-title{
+.featured-title {
 	width: 100%;
 	order: 0;
 	}
@@ -103,8 +108,12 @@ img {
 		display: flex;
 		
 	}
+	
 	.animal {width: 33%;order: 2;}
-    .memory {width: 33%;order: 3;}
-    .frogger {width: 33%; order:4;}
+	
+	.memory {width: 33%;order: 3;}
+	
+    	.frogger {width: 33%; order:4;}
+	
 	}
 	
