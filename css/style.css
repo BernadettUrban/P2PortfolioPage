@@ -26,10 +26,9 @@ time, mark, audio, video {
 
 body {
     font-family: "Times New Roman", serif;
-	font-size:1.125rem;
+	font-size: 1.125rem;
 	text-align: center;
-	height:2rem;
-  	color:#333;
+	height: 2rem;
 }
 h1, h2, h3, h4{
   	font-weight: 500;
@@ -40,15 +39,19 @@ h1, h2, h3, h4{
 h1 {
 	font-size: 50px;
 }
+
 h2 {
 	font-size: 48px;
 }
-h3{
-	font-size:30px;
+
+h3 {
+	font-size: 30px;
 }
-h4{
+
+h4 {
 	font-size: 20px;
 }
+
 .main-header {
 	width: 100%;
 	display: flex;
@@ -56,7 +59,7 @@ h4{
 }
 
 .udacity-logo {
-	height: 150px;
+	height: auto;
 	width: 150px;	
 }
 
@@ -68,43 +71,68 @@ h4{
 	margin-left: 0;
     text-align: right;
 	text-transform: uppercase;
-	width:80%;
+	width: 80%;
 }
 
 .job-title{
 	margin-left: 0;
     text-align: right;
 	text-transform: uppercase;
-	width:80%;
+	width: 80%;
 }
 
 img {
     max-width: 100%;
 }
+a {
+	padding: 1.5em;
+}
+
+
 .hero-image{
 	max-width: 100%;
 }
 
-
 .featured-title{
 	width: 100%;
-	order: 0;
+	order: 1;
 	}
 
-@media screen and (min-width:768px){
-	.name {
-		width:100%;
+@media screen and (min-width: 768px) 
+	.main-header {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
 	}
+	
+	.name {
+		width: 100%;
+	}
+	
 	.job-title{
-		width:100%;
+		width: 100%;
    }
+	
+	.logo {
+		order: -3;
+	}
+	
 	.featured {
-		background-color: rgba(255, 248, 53, .3);
 		display: flex;
 		
 	}
+	
 	.animal {width: 33%;order: 2;}
+	
     .memory {width: 33%;order: 3;}
+	
     .frogger {width: 33%; order:4;}
+	
 	}
 	
+@media screen and (min-width: 900px) {
+	.featured {
+		display: flex;
+		justify-content: flex-end;
+	}
+}
