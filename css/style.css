@@ -69,14 +69,14 @@ h4 {
 
 .name {
 	margin-left: 0;
-    	text-align: right;
+    text-align: right;
 	text-transform: uppercase;
 	width: 80%;
 }
 
 .job-title{
 	margin-left: 0;
-    	text-align: right;
+    text-align: right;
 	text-transform: uppercase;
 	width: 80%;
 }
@@ -121,12 +121,11 @@ a {
 		display: flex;
 		
 	}
-	
 	.animal {width: 33%;order: 2;}
 	
-    	.memory {width: 33%;order: 3;}
+    .memory {width: 33%;order: 3;}
 	
-    	.frogger {width: 33%; order:4;}
+    .frogger {width: 33%; order:4;}
 	
 	}
 	
