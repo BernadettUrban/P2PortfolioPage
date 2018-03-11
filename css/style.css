@@ -69,14 +69,14 @@ h4 {
 
 .name {
 	margin-left: 0;
-    text-align: right;
+    	text-align: right;
 	text-transform: uppercase;
 	width: 80%;
 }
 
 .job-title{
 	margin-left: 0;
-    text-align: right;
+    	text-align: right;
 	text-transform: uppercase;
 	width: 80%;
 }
@@ -84,10 +84,10 @@ h4 {
 img {
     max-width: 100%;
 }
+
 a {
 	padding: 1.5em;
 }
-
 
 .hero-image{
 	max-width: 100%;
@@ -124,9 +124,9 @@ a {
 	
 	.animal {width: 33%;order: 2;}
 	
-    .memory {width: 33%;order: 3;}
+    	.memory {width: 33%;order: 3;}
 	
-    .frogger {width: 33%; order:4;}
+    	.frogger {width: 33%; order:4;}
 	
 	}
 	
