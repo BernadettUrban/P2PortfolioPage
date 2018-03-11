@@ -30,8 +30,7 @@ body {
 	text-align: center;
 	height: 2rem;
 }
-
-h1, h2, h3, h4 {
+h1, h2, h3, h4{
   	font-weight: 500;
   	line-height: 1.1;
   	margin-top: 0;	
@@ -70,20 +69,19 @@ h4 {
 
 .name {
 	margin-left: 0;
-    	text-align: right;
+    text-align: right;
 	text-transform: uppercase;
 	width: 80%;
 }
 
-.job-title {
+.job-title{
 	margin-left: 0;
-    	text-align: right;
+    text-align: right;
 	text-transform: uppercase;
 	width: 80%;
 }
 
 img {
-<<<<<<< HEAD
     max-width: 100%;
 }
 a {
@@ -96,21 +94,10 @@ a {
 }
 
 .featured-title{
-=======
-	max-width: 100%;
-}
-
-.hero-image {
-	max-width: 100%;
-}
-
-.featured-title {
->>>>>>> e7c3cb21b38d2b3c8ba575f8e2be8d698313b3d5
 	width: 100%;
 	order: 1;
 	}
 
-<<<<<<< HEAD
 @media screen and (min-width: 768px) 
 	.main-header {
 	width: 100%;
@@ -118,24 +105,16 @@ a {
 	flex-wrap: wrap;
 	}
 	
-=======
-@media screen and (min-width: 768px){
->>>>>>> e7c3cb21b38d2b3c8ba575f8e2be8d698313b3d5
 	.name {
 		width: 100%;
 	}
 	
-<<<<<<< HEAD
 	.job-title{
 		width: 100%;
    }
 	
 	.logo {
 		order: -3;
-=======
-	.job-title {
-		width:100%;
->>>>>>> e7c3cb21b38d2b3c8ba575f8e2be8d698313b3d5
 	}
 	
 	.featured {
@@ -145,7 +124,6 @@ a {
 	
 	.animal {width: 33%;order: 2;}
 	
-<<<<<<< HEAD
     .memory {width: 33%;order: 3;}
 	
     .frogger {width: 33%; order:4;}
@@ -158,11 +136,3 @@ a {
 		justify-content: flex-end;
 	}
 }
-=======
-	.memory {width: 33%;order: 3;}
-	
-    	.frogger {width: 33%; order:4;}
-	
-	}
-	
->>>>>>> e7c3cb21b38d2b3c8ba575f8e2be8d698313b3d5
