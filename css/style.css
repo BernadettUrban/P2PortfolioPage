@@ -52,10 +52,14 @@ h4 {
 	font-size: 20px;
 }
 
-.main-header {
+.container {
 	width: 100%;
 	display: flex;
 	flex-wrap: wrap;
+}
+
+.main-header {
+	width: 100%;
 }
 
 .udacity-logo {
@@ -119,19 +123,18 @@ a {
 	
 	.featured {
 		display: flex;
-		
+		flex-direction: column;	
 	}
+	
+@media screen and (min-width: 600px) {
+	.featured {
+		display: flex;
+		flex-direction: row;	
+	}
+
 	.animal {width: 33%;order: 2;}
 	
     .memory {width: 33%;order: 3;}
 	
     .frogger {width: 33%; order:4;}
-	
-	}
-	
-@media screen and (min-width: 900px) {
-	.featured {
-		display: flex;
-		justify-content: flex-end;
-	}
 }
